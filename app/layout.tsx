@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import { Amiri, Outfit, Titan_One } from "next/font/google";
 
 import "./globals.css";
-import { Footer, Header } from "@/components/layout";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SITE } from "@/data/site";
+import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
 
 const titanOne = Titan_One({
   variable: "--font-titan-one",

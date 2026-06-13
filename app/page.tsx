@@ -1,3 +1,4 @@
+import { BaseLayout } from "@/components/layout";
 import {
   CtaSection,
   Hero,
